@@ -16,7 +16,7 @@ def add_listing
 end
 
 def book_space
-  first('.listing > .listing-outline').click
+  find('.listing > .listing-outline').click
   fill_in("start_date", with: "2020-01-27")
   fill_in("end_date", with: "2020-02-01")
   click_button "Book Space!"
