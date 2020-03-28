@@ -37,7 +37,6 @@ feature 'My Account Page' do
       find('.drop-down-container').hover
       find(:xpath, "//a[@href='/myaccount']").click
       find(:xpath, "//button[@id='mybookingsbtn']").click
-      # first(:xpath, "//button[@id='accept-booking']").click
       find('.drop-down-container').hover
       find(:xpath, "//a[@href='/myaccount']").click
       find(:xpath, "//button[@id='mybookingsbtn']").click
@@ -65,7 +64,6 @@ feature 'My Account Page' do
       find('.drop-down-container').hover
       find(:xpath, "//a[@href='/myaccount']").click
       find(:xpath, "//button[@id='mybookingsbtn']").click
-      # first(:xpath, "//button[@id='accept-booking']").click
       find('.drop-down-container').hover
       find(:xpath, "//a[@href='/myaccount']").click
       find(:xpath, "//button[@id='mytripsbtn']").click
