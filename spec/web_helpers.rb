@@ -1,7 +1,7 @@
 def login
   visit '/'
   click_button('Log in')
-  fill_in("log_in_email", with: 'test-email')
+  fill_in("log_in_email", with: 'test')
   fill_in("log_in_password", with: 'password')
   click_button 'log in'
 end
